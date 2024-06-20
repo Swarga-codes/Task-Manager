@@ -1,0 +1,45 @@
+.Signup{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: fit-content;
+    border: 2px solid white;
+    border-radius: 20px;
+    margin: auto;
+    margin-top: 10rem;
+    padding: 1rem 2rem;
+}
+.Signup .signup_email{
+    margin-top: 2rem;
+}
+/* .Signup input{
+    padding: 0.5rem 0;
+    width: 100%;
+    border-radius: 5px;
+    padding-left: 0.2rem;
+}
+.Signup input:nth-child(1){
+    margin-bottom: 0.5rem;
+} */
+.Signup button{
+    margin-top: 1rem;
+    padding: 1rem 4rem;
+    width: 100%;
+    cursor: pointer;
+    background: #161b22;
+    /* border: none; */
+    border-radius: 8px;
+    outline: none;
+    border: none;
+    color: white;
+    font-weight: 600;
+
+}
+.existing_account{
+    margin-top: 1rem;
+}
+.error_message{
+    margin-top: 1rem;
+    color: red;
+}

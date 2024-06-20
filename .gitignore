@@ -1,0 +1,4 @@
+/task-frontend/.env
+/task-frontend/node_modules
+/task-backend/.env
+/task-backend/node_modules

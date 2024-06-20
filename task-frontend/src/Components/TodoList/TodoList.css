@@ -1,0 +1,56 @@
+.todos{
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    border: 2px solid white;
+    border-radius: 16px;
+    padding: 1rem 1rem;
+    width: 30rem;
+    
+}
+.Delete,.edit,.markAsCompleted{
+    margin-top: 1rem;
+    padding: 0.5rem 0.8rem;
+    cursor: pointer;
+    background-color: #ff3333;
+    font-weight: bold;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    outline: none;
+}
+.deadline{
+    margin-top: 1rem;
+    font-weight: bold;
+}
+.todoBtn{
+    display: flex;
+}
+
+.markAsCompleted{
+   background-color: black;
+   color: white;
+   border: 2px solid greenyellow;
+   margin-left: 0.5rem;
+}
+.edit{
+    background-color: #007bff;
+    margin-right: 0.5rem;
+}
+.pending b{
+    color: #ff3333;
+}
+.complete b{
+    color: #1db954;
+}
+.todos{
+    display: flex;
+}
+.todos_details{
+    margin-left: 1rem;
+    overflow-wrap: anywhere;
+}
+@media(max-width:991px){
+.todos{
+    width: 19rem;
+}
+}
